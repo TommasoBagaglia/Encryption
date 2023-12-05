@@ -10,7 +10,7 @@ class Main {
     Vigenere v2 = new Vigenere(0, 12 , 0, 12, m1);
     Vigenere v3 = new Vigenere(0, 12 , 0, 12, m1);
     Vigenere v4 = new Vigenere(0, 12 , 0, 12, m1);
-    // Creazione degli oggetti Thread ,
+    // Creazione degli oggetti Thread modifica 
     Thread t1 = new Thread(v1);
     Thread t2 = new Thread(v2);
     Thread t3 = new Thread(v3);
