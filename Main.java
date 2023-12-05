@@ -1,3 +1,6 @@
+/**
+ * @author Tommaso Bagaglia
+ */
 class Main {
   public static void main(String[] args) {
     System.out.println("Cifriamo il nostro testo e trasformiamolo in un testo segreto!");
@@ -7,7 +10,7 @@ class Main {
     Vigenere v2 = new Vigenere(0, 12 , 0, 12, m1);
     Vigenere v3 = new Vigenere(0, 12 , 0, 12, m1);
     Vigenere v4 = new Vigenere(0, 12 , 0, 12, m1);
-    // Creazione degli oggetti Thread 
+    // Creazione degli oggetti Thread ,
     Thread t1 = new Thread(v1);
     Thread t2 = new Thread(v2);
     Thread t3 = new Thread(v3);
