@@ -3,7 +3,9 @@
  */
 class Main {
   public static void main(String[] args) {
+    //inserire parola chiave 
     System.out.println("Cifriamo il nostro testo e trasformiamolo in un testo segreto!");
+    
     Matrice m1 = new Matrice ("TPSIT");
     // Creazione di quattro Thread per il popolamento della matrice 
     Vigenere v1 = new Vigenere(0, 12 , 0, 12, m1);
